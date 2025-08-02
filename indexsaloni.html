@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Saloni 💖</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      background-color: black;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .img-container {
+      width: 260px;
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 0 25px rgba(255, 150, 255, 0.9);
+      animation: pulse 2.5s infinite ease-in-out;
+    }
+
+    .img-container img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    @keyframes pulse {
+      0%, 100% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.05);
+      }
+    }
+
+    h2 {
+      color: #ffccff;
+      font-family: "Comic Sans MS", cursive;
+      font-size: 20px;
+      text-align: center;
+      margin-top: 20px;
+      padding: 0 20px;
+      text-shadow: 0 0 8px white;
+    }
+  </style>
+</head>
+<body>
+  <div class="img-container">
+    <img src="saloni.jpg" alt="Saloni">
+  </div>
+  <h2>I still can’t figure out how someone can be this cute and cool at the same time.</h2>
+</body>
+</html>
